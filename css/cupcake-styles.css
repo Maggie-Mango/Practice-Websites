@@ -1,0 +1,19 @@
+.sidebar {
+  width:30%;
+  float:right;
+  background-color:lavenderblush;
+  border:black;
+  border-width:200px;
+}
+
+h2 {
+  text-align:center;
+}
+
+.list {
+  text-align: center;
+}
+ul {
+  display:inline-block;
+  text-align: left;
+}
