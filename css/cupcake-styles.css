@@ -1,19 +1,33 @@
+img {
+  float: left;
+  width: 300px;
+}
+
+.contact-us {
+  width 30%;
+  float: left;
+  margin: 12px;
+  border: 2px solid green;
+  padding: 40px;
+  background-color: orange;
+  box-sizing: border-box;
+}
 .sidebar {
   width:30%;
-  float:right;
-  background-color:lavenderblush;
-  border:black;
-  border-width:200px;
+  float:left;
+  background-color:lavenderblush; 
+
 }
 
 h2 {
   text-align:center;
+  font-style: italic;
 }
 
 .list {
   text-align: center;
 }
-ul {
-  display:inline-block;
+ul { 
   text-align: left;
 }
+
