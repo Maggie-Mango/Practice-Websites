@@ -1,5 +1,5 @@
 function firstAndLast(response) {
-  firstLetter = response.charAt(str.length - 1)
+  firstLetter = response.charAt(response.length - 1)
   lastLetter = response.charAt(0)
   middle = response.substring(1,(response.length-1))
   return firstLetter + middle + lastLetter
