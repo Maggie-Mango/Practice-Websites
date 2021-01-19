@@ -1,14 +1,20 @@
 function capitalize(response) {
-  return response[0].toUpperCase() + response.substring(1,(response.length-1)) + response.charAt(response.length - 1).toUpperCase()
+  return response[0].toUpperCase() + response.charAt(response.length - 1).toUpperCase()
 }
 
 function firstAndLast(response) {
   response = capitalize(response)
-  firstLetter = response.charAt(response.length - 1)
-  lastLetter = response.charAt(0)
-  middle = response.substring(1,(response.length-1))
-  return firstLetter + middle + lastLetter
+  return response[1] + response[0]
   }
 
+function concat(response) {
+  concatResponse = firstAndLast(response)
+  return response + concatResponse
+  }
+
+
+
 const response = prompt("What did you do for dinner tonight?");
-alert(firstAndLast(response));
+alert(concat(response));
+
+//response.substring(1,(response.length-1)) 
