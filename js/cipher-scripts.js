@@ -20,7 +20,11 @@ function fourth(response) {
   return z + newResponse
 }
 
+function reverse(response) {
+  response = fourth(response)
+  return response.split("").reverse().join("")
+}
 const response = prompt("What did you do for dinner tonight?");
-alert(fourth(response));
+alert(reverse(response));
 
 //response.substring(1,(response.length-1)) 
