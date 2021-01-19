@@ -12,9 +12,15 @@ function concat(response) {
   return response + concatResponse
   }
 
-
+function fourth(response) {
+  newResponse = concat(response)
+  x = response.length / 2
+  y = Math.floor(x)
+  z = response[y]
+  return z + newResponse
+}
 
 const response = prompt("What did you do for dinner tonight?");
-alert(concat(response));
+alert(fourth(response));
 
 //response.substring(1,(response.length-1)) 
